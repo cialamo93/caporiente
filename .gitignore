@@ -2,16 +2,8 @@
 
 # dependencies
 /node_modules
-src/
-public/
 .DS_Store
 .env
-
-# testing
-/coverage
-
-# production
-/build
 
 # misc
 .DS_Store
