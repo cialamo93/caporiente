@@ -1,0 +1,121 @@
+.custom-carousel-arrow {
+  color: #1e1e1e; /* Cambia el color a tu elección */
+  font-size: 74px; /* Cambia el tamaño de fuente a tu elección */
+}
+
+.nav-link {
+    color: white !important
+}
+
+#root {
+    font-family: 'Roboto';
+    text-decoration: none !important;
+}
+
+.promoInfo {
+    right: 33% !important;
+    left: 33% !important;
+    
+}
+
+.promoInfo li {
+    text-align: left;
+}
+
+.carousel-overlay {
+    background-color: rgba(99, 99, 99, 0.807);
+    border-radius: 10px;
+}
+
+.suggestions-container {
+    position: absolute;
+    z-index: 9999;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+
+.cardATag {
+    color: white;
+    text-decoration: none !important;
+    border-radius: 10px;
+    font-size: small;
+  }
+
+/* .image-grid-row {
+margin-left: 10px;
+margin-right: 10px;
+} */
+/* .image-column {
+padding: 4px 0px;
+} */
+
+/* .image-grid-row {
+    margin-top: 10px;
+  } */
+  
+  .image-card {
+    position: relative;
+    overflow: hidden;
+    height: 100% !important;
+  }
+  
+  .image-card .card-img {
+    transition: transform 0.3s ease;
+  }
+  
+  .image-card:hover .card-img {
+    transform: scale(1.5);
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  
+  .image-overlay .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  /* .image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  } */
+
+  .card-img-top {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .featuredItemImg {
+    height: 150px
+  }
+
+  .navLinkFWBlack {
+    font-weight: 600;
+  }
+
+  .bs-One {
+    box-shadow: 0 0 7px 2px rgb(174, 174, 174)
+  }
+
+  .countdownDiv {
+    background-color: gray;
+    border-radius: 10px;
+    margin: 2px;
+    padding-top: 4px;
+    box-shadow: 0 0 7px 1px rgb(174, 174, 174);
+    color: white;
+  }
+  
