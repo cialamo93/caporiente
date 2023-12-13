@@ -2,8 +2,10 @@
 
 # dependencies
 /node_modules
-/.pnp
-.pnp.js
+src/
+public/
+.DS_Store
+.env
 
 # testing
 /coverage
